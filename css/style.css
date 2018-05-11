@@ -1,0 +1,156 @@
+/* nomfichier.css */
+/* Programmé par Jimmy Pellerin */
+/* Le 2 mai 2017 */
+
+@media print{
+    #formulaire{
+        width: 100%;
+        height: 100%;
+    }
+    #footer{
+        display: none;
+        visibility: hidden;
+    }
+}
+
+.FirstSection{
+    background-color: #5a6268;
+
+}
+.SecondSection{
+    background-color: hotpink;
+
+}
+.imageYoda1{
+    height: 65%;
+    width: 65%;
+}
+.error {
+    border:2px solid red;
+}
+
+.bad {
+    border:2px solid red;
+}
+.moyen {
+    border:2px solid yellow;
+}
+.good {
+    border:2px solid lawngreen;
+}
+
+
+/* cellulaire */
+@media only screen and (max-device-width: 480px) and (min-device-width: 250px){
+    .VoilaDesMediaQuery {
+        background-color: #80bdff;
+    }
+
+}
+/* TABLETTES */
+@media screen and (min-width: 800px) and (max-width: 1199px) {
+    .VoilaDesMediaQuery {
+        background-color: hotpink;
+    }
+
+}
+
+
+
+.margin{
+    margin: 25px;
+}
+.boutonred {
+    background-color: orangered;
+}
+.boutonwhite {
+    background-color: white;
+}
+.backgroundWhite{
+    background-color: white;
+}
+
+.backgroundRed{
+    background-color: orangered;
+}
+
+.blue {
+    background-color: blue;
+}
+.red {
+    background-color: orangered;
+}
+.green {
+    background-color: lime;
+}
+.yellow {
+    background-color: yellow;
+}
+.black{
+    background-color: black;
+}
+
+.textrouge{
+    color: orangered;
+}
+.textwhite{
+    color: white;
+}
+.textblack{
+    color: lightgray;
+}
+.container-fluid{
+    padding: 0;
+}
+
+body {
+
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+p {
+
+}
+
+a {
+
+}
+
+a:visited {
+
+}
+
+a:hover {
+
+}
+
+img {
+
+}
+
+table {
+
+}
+
+tr {
+
+}
